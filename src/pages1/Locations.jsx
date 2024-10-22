@@ -9,7 +9,6 @@ const Locations = () => {
     let navigate = useNavigate();
     let location = useLocation();
     let idC = location.state;
-    // console.log(idC);
     
     let [state,setState] = useState({});
 

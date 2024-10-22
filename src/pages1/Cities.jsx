@@ -8,10 +8,9 @@ import "../styles/qtrip.css"
 const Cities = () => {
     let navigate = useNavigate();
     let location = useLocation();
-    let idCl = location.state.id;
-    // console.log(idCl);
+    let idCl = location.state;
     
-    let [state,setState] = useState([]);
+    let [state,setState] = useState([]);  
     useEffect(()=>{
         fetch(`https://content-qtripdynamic-qa-backend.azurewebsites.net//api/v1/adventures?city=${idCl}`)
         .then(res=>res.json())

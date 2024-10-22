@@ -31,7 +31,7 @@ function Cards(){
                     return(
                         <div key={item.id} className="card">
                             <div className="image-container">
-                            <img onClick={() => navigate(`/cities/${item.id}`, {state:item})} src={item.image} alt={item.city} />
+                            <img onClick={() => navigate(`/cities/${item.id}`, {state:item.id})} src={item.image} alt={item.city} />
                                 <div className="content">
                                     <h2>{item.city}</h2>
                                     <p>{item.description}</p>

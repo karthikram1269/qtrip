@@ -38,7 +38,7 @@ const Cities = () => {
                             </div>
                             <div id='dt2'>
                               <h5>{"Duration"}</h5>
-                              <span >{x.duration}</span>
+                              <span >{`${x.duration} Hours`}</span>
                             </div>
                         </div>
                         )

@@ -12,16 +12,16 @@ export default class MApp extends Component {
       cities: []
     };
   }
-  componentDidMount() {
-    fetch("https://content-qtripdynamic-qa-backend.azurewebsites.net//api/v1/cities")
-    .then(res => res.json())
-      .then(response => {
-        this.setState({ cities: response });
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-      });
-  }
+  // componentDidMount() {
+  //   fetch("https://content-qtripdynamic-qa-backend.azurewebsites.net//api/v1/cities")
+  //   .then(res => res.json())
+  //     .then(response => {
+  //       this.setState({ cities: response });
+  //     })
+  //     .catch(error => {
+  //       console.error('Error fetching data:', error);
+  //     });
+  // }
    
   render() {
     return (
@@ -34,3 +34,5 @@ export default class MApp extends Component {
     );
   }
 }
+
+

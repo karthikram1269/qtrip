@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class BHead extends Component {
+class CitiesHead extends Component {
   render() {
     return (
       <>
@@ -20,4 +20,4 @@ class BHead extends Component {
   }
 }
 
-export default BHead;
+export default CitiesHead;

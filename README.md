@@ -1,5 +1,4 @@
-
-      To-trip, WEBSITE CLONING(qtrip) USING REACT.  
+QTrip WEBSITE CLONING USING REACT.  
 
 - React hooks  like useNaviagate,useLocation have played major roles.
 - The commmented code in the files are the core version of code to the updated ones.
